@@ -28,7 +28,7 @@ Maintained by [Packet Coders](https://www.packetcoders.io).
 
 *Open-source tools and frameworks that combine AI/ML with network automation.*
 
-- [asncounter](https://gitlab.com/anarcat/asncounter) - Counts HTTP hits and network packets grouped by Autonomous System Number (ASN) and their associated network blocks.
+
 
 ## LLM & Agent Tooling
 
@@ -46,7 +46,6 @@ Maintained by [Packet Coders](https://www.packetcoders.io).
 
 *Commercial and hosted platforms with AI network automation capabilities.*
 
-- [Cisco Modeling Labs (CML)](https://developer.cisco.com/docs/modeling-labs/) - Network simulation and modelling platform for designing, testing, and learning network configurations in a virtual environment.
 
 ## Model Context Protocol (MCP)
 
