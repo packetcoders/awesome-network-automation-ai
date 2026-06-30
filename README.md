@@ -52,6 +52,7 @@ Maintained by [Packet Coders](https://www.packetcoders.io).
 *MCP servers and integrations exposing tooling to AI agents.*
 
 - [MCP Gateway](https://github.com/jongaudu/mcp-gateway) - Proxy server that consolidates multiple MCP backend servers behind a single endpoint, with lazy schema loading and a web dashboard.
+- [Netmiko MCP](https://github.com/ktbyers/netmiko_mcp) - MCP server that gives AI agents controlled SSH access to network devices via Netmiko, with command whitelisting for safety.
 
 ## Articles & Blog Posts
 
