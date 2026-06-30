@@ -34,6 +34,7 @@ Maintained by [Packet Coders](https://www.packetcoders.io).
 
 *LLM-based assistants, copilots, and agentic systems for networking and engineering tasks.*
 
+- [Open WebUI](https://github.com/open-webui/open-webui) - Self-hosted, extensible AI platform and chat interface that runs fully offline, supporting multiple LLM runners (Ollama, OpenAI-compatible APIs), RAG, and tool calling.
 - [Ponytail](https://github.com/DietrichGebert/ponytail) - Plugin for AI coding agents (Claude Code, Codex, Copilot) that enforces a "reuse before you build" decision ladder to minimise new code.
 
 ## Libraries & SDKs
@@ -51,15 +52,18 @@ Maintained by [Packet Coders](https://www.packetcoders.io).
 
 *MCP servers and integrations exposing tooling to AI agents.*
 
+- [gridctl](https://github.com/gridctl/gridctl) - Gateway that aggregates multiple MCP servers and Agent Skills behind a single declarative YAML endpoint, with token-saving output conversion and per-call cost tracking.
 - [MCP Gateway](https://github.com/jongaudu/mcp-gateway) - Proxy server that consolidates multiple MCP backend servers behind a single endpoint, with lazy schema loading and a web dashboard.
+- [mcpo](https://github.com/open-webui/mcpo) - Proxy server that exposes any MCP tool as an OpenAPI-compatible HTTP endpoint, making MCP tooling usable from standard web APIs and agents.
 - [Netmiko MCP](https://github.com/ktbyers/netmiko_mcp) - MCP server that gives AI agents controlled SSH access to network devices via Netmiko, with command whitelisting for safety.
 
 ## Articles & Blog Posts
 
 *Notable articles, write-ups, and blog posts.*
 
-- [The PENE Framework for AI Network Operations](https://sifbaksh.com/blog/pene-framework-ai-network-operations/) - Introduces the PENE framework for applying AI to network operations.
 - [AI Agent Trends Engineers Should Care About](https://danielbeck.dev/blog/ai-agent-trends-engineers-should-care-about/) - Overview of emerging AI agent trends relevant to engineers.
+- [The PENE Framework for AI Network Operations](https://sifbaksh.com/blog/pene-framework-ai-network-operations/) - Introduces the PENE framework for applying AI to network operations.
+- [The Schema-Driven LLM Query Pattern](https://www.packetcoders.io/the-schema-driven-llm-query-pattern/) - Describes a pattern that uses a defined schema to structure and validate LLM outputs for reliable, structured querying of network data.
 
 ## Tutorials & Guides
 
