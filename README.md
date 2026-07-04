@@ -117,7 +117,7 @@ Maintained by [Packet Coders](https://www.packetcoders.io).
 
 *Forums, Slack/Discord communities, and groups.*
 
-<!-- Resources go here. -->
+- [Network Automation Forum - Start Here](https://github.com/Network-Automation-Forum/handyinfo/blob/main/docs/StartHere.md) - Community-maintained guide from the Network Automation Forum (NAF) covering where to start with network automation, orchestration, and observability, including learning materials, communities, and blogs.
 
 ## Contributing
 
