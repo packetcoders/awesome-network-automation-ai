@@ -28,14 +28,19 @@ Maintained by [Packet Coders](https://www.packetcoders.io).
 
 *Open-source tools and frameworks that combine AI/ML with network automation.*
 
-
+<!-- Resources go here. -->
 
 ## LLM & Agent Tooling
 
 *LLM-based assistants, copilots, and agentic systems for networking and engineering tasks.*
 
+- [Agent Skills](https://github.com/addyosmani/agent-skills) - Pack of production engineering skills for coding agents covering spec-driven development, incremental implementation, code simplification, and review gates, portable across Claude Code, Cursor, Codex, and others.
+- [caveman](https://github.com/JuliusBrussee/caveman) - Agent skill that cuts output tokens by rewriting agent prose into a terse fragment style, with configurable compression levels and commands for commits and memory-file rewrites.
+- [herdr](https://herdr.dev/) - Terminal-native multiplexer for AI coding agents that gives each agent its own pane, with automatic state detection, detachable persistent sessions, and a socket API for orchestration.
+- [NetCopilot](https://github.com/AnasProgrammer2/netcopilot) - SSH/Telnet/serial client with ARIA, an agent that runs diagnostic commands and explains root causes across Cisco, Juniper, Arista, Nokia SR-OS, Huawei VRP, MikroTik, Fortinet, Palo Alto, and F5 (source-available, BSL 1.1).
 - [Open WebUI](https://github.com/open-webui/open-webui) - Self-hosted, extensible AI platform and chat interface that runs fully offline, supporting multiple LLM runners (Ollama, OpenAI-compatible APIs), RAG, and tool calling.
 - [Ponytail](https://github.com/DietrichGebert/ponytail) - Plugin for AI coding agents (Claude Code, Codex, Copilot) that enforces a "reuse before you build" decision ladder to minimise new code.
+- [Skills for Real Engineers](https://github.com/mattpocock/skills) - Collection of composable agent skills targeting common coding-agent failure modes, including TDD, code review, bug diagnosis, and codebase architecture improvement.
 
 ## Libraries & SDKs
 
@@ -47,6 +52,8 @@ Maintained by [Packet Coders](https://www.packetcoders.io).
 
 *Commercial and hosted platforms with AI network automation capabilities.*
 
+- [NetPilot](https://netpilot.io) - Agent that builds lab topologies from plain-English descriptions, generating vendor-specific configs for Cisco, Juniper, Arista, Nokia, Palo Alto, and Fortinet and deploying them to cloud-hosted devices.
+- [TopoAI](https://www.topoai.cc/) - Generates editable network topology diagram drafts from natural-language descriptions, sketches, and screenshots.
 
 ## Model Context Protocol (MCP)
 
@@ -56,6 +63,7 @@ Maintained by [Packet Coders](https://www.packetcoders.io).
 - [MCP Gateway](https://github.com/jongaudu/mcp-gateway) - Proxy server that consolidates multiple MCP backend servers behind a single endpoint, with lazy schema loading and a web dashboard.
 - [mcpo](https://github.com/open-webui/mcpo) - Proxy server that exposes any MCP tool as an OpenAPI-compatible HTTP endpoint, making MCP tooling usable from standard web APIs and agents.
 - [Netmiko MCP](https://github.com/ktbyers/netmiko_mcp) - MCP server that gives AI agents controlled SSH access to network devices via Netmiko, with command whitelisting for safety.
+- [tailscale-mcp](https://github.com/YawLabs/tailscale-mcp) - MCP server for managing Tailscale tailnets from AI assistants, covering devices, ACLs, DNS, auth keys, users, webhooks, and audit logs.
 
 ## Articles & Blog Posts
 
@@ -69,7 +77,7 @@ Maintained by [Packet Coders](https://www.packetcoders.io).
 
 *Hands-on tutorials and how-to guides.*
 
-<!-- Resources go here. -->
+- [AI Agents for Network Automation Workshop](https://github.com/packetcoders/ai-workshop-agents-mcp) - Four-hour hands-on workshop on building read-only network automation with AI coding agents, Python, and MCP, including lab code, an MCP server, and instructor notes.
 
 ## Videos & Talks
 
@@ -81,7 +89,7 @@ Maintained by [Packet Coders](https://www.packetcoders.io).
 
 *Podcasts and episodes covering AI in networking.*
 
-<!-- Resources go here. -->
+- [The Cloud Gambit: AutoCon 4 Recap, AI Tools, MCP's First Birthday](https://packetpushers.net/podcasts/the-cloud-gambit/tcg065-autocon-4-recap-ai-tools-mcps-first-birthday-and-more/) - Episode covering AutoCon 4 takeaways, AI tooling for network engineers, and a year of MCP.
 
 ## Courses & Training
 
@@ -111,7 +119,7 @@ Maintained by [Packet Coders](https://www.packetcoders.io).
 
 *Newsletters worth subscribing to.*
 
-<!-- Resources go here. -->
+- [Packet Coders Newsletter](https://www.packetcoders.io/newsletter/) - Monthly network automation newsletter that regularly covers AI and LLM tooling for network engineers.
 
 ## Communities
 
