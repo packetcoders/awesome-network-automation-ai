@@ -36,7 +36,11 @@ Maintained by [Packet Coders](https://www.packetcoders.io).
 
 - [Agent Skills](https://github.com/addyosmani/agent-skills) - Pack of production engineering skills for coding agents covering spec-driven development, incremental implementation, code simplification, and review gates, portable across Claude Code, Cursor, Codex, and others.
 - [caveman](https://github.com/JuliusBrussee/caveman) - Agent skill that cuts output tokens by rewriting agent prose into a terse fragment style, with configurable compression levels and commands for commits and memory-file rewrites.
+- [GAIT](https://github.com/automateyournetwork/gait) - Version control system for AI conversations that commits, branches, and merges agent turns, and pins selected turns into a persistent memory layer injected into every later prompt.
 - [herdr](https://herdr.dev/) - Terminal-native multiplexer for AI coding agents that gives each agent its own pane, with automatic state detection, detachable persistent sessions, and a socket API for orchestration.
+- [MCPyATS](https://github.com/automateyournetwork/MCPyATS) - Containerised reference stack pairing Cisco pyATS with a LangGraph agent, a Streamlit frontend, and a set of MCP tool servers, plus an A2A adapter for agent-to-agent delegation.
+- [NetBox ReAct Agent](https://github.com/automateyournetwork/netbox_react_agent) - ReAct agent that performs CRUD operations against the NetBox API from plain-English prompts, with separate branches for OpenAI models and local models via Ollama.
+- [NetClaw](https://github.com/automateyournetwork/netclaw) - Agentic network engineering assistant built on OpenClaw, bundling hundreds of skills and MCP integrations across multi-vendor devices, controllers, labs, observability, and ITSM, with change gating, source-of-truth reconciliation, and an immutable audit trail.
 - [NetCopilot](https://github.com/AnasProgrammer2/netcopilot) - SSH/Telnet/serial client with ARIA, an agent that runs diagnostic commands and explains root causes across Cisco, Juniper, Arista, Nokia SR-OS, Huawei VRP, MikroTik, Fortinet, Palo Alto, and F5 (source-available, BSL 1.1).
 - [Open WebUI](https://github.com/open-webui/open-webui) - Self-hosted, extensible AI platform and chat interface that runs fully offline, supporting multiple LLM runners (Ollama, OpenAI-compatible APIs), RAG, and tool calling.
 - [Ponytail](https://github.com/DietrichGebert/ponytail) - Plugin for AI coding agents (Claude Code, Codex, Copilot) that enforces a "reuse before you build" decision ladder to minimise new code.
@@ -60,10 +64,14 @@ Maintained by [Packet Coders](https://www.packetcoders.io).
 *MCP servers and integrations exposing tooling to AI agents.*
 
 - [ACI MCP](https://github.com/k3l0-dev/aci-mcp) - Schema-driven MCP server for Cisco ACI that lets an agent search the APIC object model, inspect a class schema, and run filtered queries without hardcoded class knowledge. Read-only, source-available under a non-commercial licence.
+- [ACI MCP Server](https://github.com/automateyournetwork/ACI_MCP) - MCP server for the Cisco ACI APIC that builds read and write tools from a configurable endpoint map, handling token-based authentication and APIC payload wrapping.
 - [gridctl](https://github.com/gridctl/gridctl) - Gateway that aggregates multiple MCP servers and Agent Skills behind a single declarative YAML endpoint, with token-saving output conversion and per-call cost tracking.
+- [ISE MCP](https://github.com/automateyournetwork/ISE_MCP) - MCP server that exposes Cisco ISE REST endpoints as FastMCP tools generated from a JSON endpoint map, with per-tool result filtering and streamable HTTP transport.
 - [MCP Gateway](https://github.com/jongaudu/mcp-gateway) - Proxy server that consolidates multiple MCP backend servers behind a single endpoint, with lazy schema loading and a web dashboard.
 - [mcpo](https://github.com/open-webui/mcpo) - Proxy server that exposes any MCP tool as an OpenAPI-compatible HTTP endpoint, making MCP tooling usable from standard web APIs and agents.
+- [NetBox MCP](https://github.com/automateyournetwork/NetBox_MCP) - Full-CRUD MCP server for NetBox covering 119 object types across all ten API apps through eight generic tools, including next-available IP, prefix, VLAN, and ASN allocation.
 - [Netmiko MCP](https://github.com/ktbyers/netmiko_mcp) - MCP server that gives AI agents controlled SSH access to network devices via Netmiko, with command whitelisting for safety.
+- [pyATS MCP](https://github.com/automateyournetwork/pyATS_MCP) - MCP server wrapping Cisco pyATS and Genie so agents can run show commands, parse output into structured data, and apply configuration over STDIO JSON-RPC.
 - [tailscale-mcp](https://github.com/YawLabs/tailscale-mcp) - MCP server for managing Tailscale tailnets from AI assistants, covering devices, ACLs, DNS, auth keys, users, webhooks, and audit logs.
 
 ## Articles & Blog Posts
