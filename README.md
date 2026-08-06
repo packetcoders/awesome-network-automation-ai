@@ -78,6 +78,7 @@ Maintained by [Packet Coders](https://www.packetcoders.io).
 *Hands-on tutorials and how-to guides.*
 
 - [AI Agents for Network Automation Workshop](https://github.com/packetcoders/ai-workshop-agents-mcp) - Four-hour hands-on workshop on building read-only network automation with AI coding agents, Python, and MCP, including lab code, an MCP server, and instructor notes.
+- [NetAgents](https://netagents.ai/) - Field guide to agentic AI in networking, cataloguing what vendors and open-source projects are shipping, alongside explainers on MCP and the IETF drafts bringing it to network devices, agent security risks, and TM Forum autonomy levels.
 
 ## Videos & Talks
 
