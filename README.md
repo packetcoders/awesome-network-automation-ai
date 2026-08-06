@@ -101,7 +101,8 @@ Maintained by [Packet Coders](https://www.packetcoders.io).
 
 *Books covering AI, ML, and network automation.*
 
-<!-- Resources go here. -->
+- [AI Networking Cookbook](https://www.packtpub.com/en-us/product/ai-networking-cookbook-9781805807988) - Recipe-based guide by Eric Chou to AI-assisted network automation, covering OpenAI API scripting, prompt engineering, local LLM fine-tuning, LangChain, and Streamlit frontends across multi-vendor APIs (Packt, 2026).
+- [Building AI Agents for Network Operations](https://www.packtpub.com/en-us/product/building-ai-agents-for-network-operations-9781808346828) - Guide by Sif Baksh to LLM-powered NetOps workflows with Python and Ollama, covering the RACE prompt structure, parsing interface and BGP output into structured data, and connecting models to approved tools via MCP and tool calling (Packt, 2026).
 
 ## Research Papers
 
