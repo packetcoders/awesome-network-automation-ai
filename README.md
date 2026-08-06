@@ -46,7 +46,7 @@ Maintained by [Packet Coders](https://www.packetcoders.io).
 
 *Programming libraries for building AI-driven network automation.*
 
-<!-- Resources go here. -->
+- [GCF (Graph Compact Format)](https://github.com/blackwell-systems/gcf) - AI-native, lossless wire format for passing structured data to LLMs and agents, with a grammar reverse-engineered from tokenization and attention-level analysis and zero-dependency SDKs in six languages.
 
 ## Platforms & Products
 
