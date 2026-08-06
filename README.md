@@ -46,6 +46,7 @@ Maintained by [Packet Coders](https://www.packetcoders.io).
 - [Open WebUI](https://github.com/open-webui/open-webui) - Self-hosted, extensible AI platform and chat interface that runs fully offline, supporting multiple LLM runners (Ollama, OpenAI-compatible APIs), RAG, and tool calling.
 - [Ponytail](https://github.com/DietrichGebert/ponytail) - Plugin for AI coding agents (Claude Code, Codex, Copilot) that enforces a "reuse before you build" decision ladder to minimise new code.
 - [Skills for Real Engineers](https://github.com/mattpocock/skills) - Collection of composable agent skills targeting common coding-agent failure modes, including TDD, code review, bug diagnosis, and codebase architecture improvement.
+- [Won't You Be My Neighbor](https://github.com/automateyournetwork/WontYouBeMyNeighbour) - Multi-agent platform in which agents self-configure and peer with one another over real OSPF and BGP implementations, using the routing control plane itself as the agent interconnect.
 
 ## Libraries & SDKs
 
@@ -66,14 +67,27 @@ Maintained by [Packet Coders](https://www.packetcoders.io).
 
 - [ACI MCP](https://github.com/k3l0-dev/aci-mcp) - Schema-driven MCP server for Cisco ACI that lets an agent search the APIC object model, inspect a class schema, and run filtered queries without hardcoded class knowledge. Read-only, source-available under a non-commercial licence.
 - [ACI MCP Server](https://github.com/automateyournetwork/ACI_MCP) - MCP server for the Cisco ACI APIC that builds read and write tools from a configurable endpoint map, handling token-based authentication and APIC payload wrapping.
+- [Catalyst Center MCP](https://github.com/richbibby/catalyst-center-mcp) - MCP server for Cisco Catalyst Center (formerly DNA Center) exposing device inventory, client, and site data for management and monitoring.
+- [Cisco SD-WAN MCP](https://github.com/siddhartha2303/cisco-sdwan-mcp) - Read-only MCP server that queries Cisco vManage for SD-WAN fabric devices, policies, and operational state.
+- [Cisco Secure Firewall FMC MCP](https://github.com/CiscoDevNet/CiscoFMC-MCP-server-community) - MCP server for Firepower Management Center that searches access policies by IP, FQDN, or identity indicator such as SGT and realm user, and resolves FTD devices to their assigned policies.
+- [clab-mcp-server](https://github.com/seanerama/clab-mcp-server) - MCP server for ContainerLab that deploys and manages containerised network labs through the ContainerLab API.
+- [cml-mcp](https://github.com/xorrkaz/cml-mcp) - MCP server for Cisco Modeling Labs covering lab lifecycle, topology, and node management.
+- [F5 BIG-IP MCP](https://github.com/czirakim/F5.MCP.server) - MCP server for F5 BIG-IP that exposes iControl REST operations across virtual servers, pools, and profiles.
 - [gridctl](https://github.com/gridctl/gridctl) - Gateway that aggregates multiple MCP servers and Agent Skills behind a single declarative YAML endpoint, with token-saving output conversion and per-call cost tracking.
+- [Infrahub MCP](https://github.com/opsmill/infrahub-mcp) - MCP server from OpsMill for Infrahub, giving agents access to its schema-driven, version-controlled source of truth.
 - [ISE MCP](https://github.com/automateyournetwork/ISE_MCP) - MCP server that exposes Cisco ISE REST endpoints as FastMCP tools generated from a JSON endpoint map, with per-tool result filtering and streamable HTTP transport.
+- [Itential MCP Server](https://github.com/itential/itential-mcp) - MCP server for the Itential Platform covering workflow orchestration, configuration management, compliance, and platform health.
+- [Junos MCP Server](https://github.com/Juniper/junos-mcp-server) - Official Juniper MCP server bridging MCP clients and Junos devices over PyEZ and NETCONF, with configuration management tools.
 - [MCP Gateway](https://github.com/jongaudu/mcp-gateway) - Proxy server that consolidates multiple MCP backend servers behind a single endpoint, with lazy schema loading and a web dashboard.
 - [mcpo](https://github.com/open-webui/mcpo) - Proxy server that exposes any MCP tool as an OpenAPI-compatible HTTP endpoint, making MCP tooling usable from standard web APIs and agents.
+- [Meraki Magic MCP](https://github.com/CiscoDevNet/meraki-magic-mcp-community) - Community MCP server from CiscoDevNet covering the Meraki Dashboard API across wireless, switching, security, and diagnostics.
+- [Nautobot MCP](https://github.com/kvncampos/nautobot_mcp) - MCP server for Nautobot with STDIO and HTTP deployments, including embedding search and RAG over network source-of-truth data.
 - [NetBox MCP](https://github.com/automateyournetwork/NetBox_MCP) - Full-CRUD MCP server for NetBox covering 119 object types across all ten API apps through eight generic tools, including next-available IP, prefix, VLAN, and ASN allocation.
+- [netbox-mcp-server](https://github.com/netboxlabs/netbox-mcp-server) - Official NetBox Labs MCP server providing read-only access to NetBox DCIM and IPAM data.
 - [Netmiko MCP](https://github.com/ktbyers/netmiko_mcp) - MCP server that gives AI agents controlled SSH access to network devices via Netmiko, with command whitelisting for safety.
 - [pyATS MCP](https://github.com/automateyournetwork/pyATS_MCP) - MCP server wrapping Cisco pyATS and Genie so agents can run show commands, parse output into structured data, and apply configuration over STDIO JSON-RPC.
 - [tailscale-mcp](https://github.com/YawLabs/tailscale-mcp) - MCP server for managing Tailscale tailnets from AI assistants, covering devices, ACLs, DNS, auth keys, users, webhooks, and audit logs.
+- [ThousandEyes MCP Server](https://github.com/CiscoDevNet/ThousandEyes-MCP-Server-official) - Official MCP server for ThousandEyes, letting an assistant query tests, alerts, outages, and BGP routing data.
 
 ## Articles & Blog Posts
 
