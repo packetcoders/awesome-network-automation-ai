@@ -28,7 +28,8 @@ Maintained by [Packet Coders](https://www.packetcoders.io).
 
 *Open-source tools and frameworks that combine AI/ML with network automation.*
 
-<!-- Resources go here. -->
+- [Packet Buddy](https://github.com/automateyournetwork/packet_buddy) - Dockerised Streamlit app that embeds a packet capture and answers questions about it conversationally, running fully locally against Ollama models.
+- [Packet RAPTOR](https://github.com/automateyournetwork/packet_raptor) - Packet capture assistant that builds a RAPTOR recursive-summary tree over the capture before querying it, aimed at larger files than a flat retrieval approach handles well.
 
 ## LLM & Agent Tooling
 
