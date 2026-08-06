@@ -59,6 +59,7 @@ Maintained by [Packet Coders](https://www.packetcoders.io).
 
 *MCP servers and integrations exposing tooling to AI agents.*
 
+- [ACI MCP](https://github.com/k3l0-dev/aci-mcp) - Schema-driven MCP server for Cisco ACI that lets an agent search the APIC object model, inspect a class schema, and run filtered queries without hardcoded class knowledge. Read-only, source-available under a non-commercial licence.
 - [gridctl](https://github.com/gridctl/gridctl) - Gateway that aggregates multiple MCP servers and Agent Skills behind a single declarative YAML endpoint, with token-saving output conversion and per-call cost tracking.
 - [MCP Gateway](https://github.com/jongaudu/mcp-gateway) - Proxy server that consolidates multiple MCP backend servers behind a single endpoint, with lazy schema loading and a web dashboard.
 - [mcpo](https://github.com/open-webui/mcpo) - Proxy server that exposes any MCP tool as an OpenAPI-compatible HTTP endpoint, making MCP tooling usable from standard web APIs and agents.
