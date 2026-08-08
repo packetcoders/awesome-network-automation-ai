@@ -65,7 +65,7 @@ Maintained by [Packet Coders](https://www.packetcoders.io).
 
 *MCP servers and integrations exposing tooling to AI agents.*
 
-- [ACI MCP](https://github.com/k3l0-dev/aci-mcp) - Schema-driven MCP server for Cisco ACI that lets an agent search the APIC object model, inspect a class schema, and run filtered queries without hardcoded class knowledge. Read-only, source-available under a non-commercial licence.
+- [niwashi-mcp](https://github.com/k3l0-dev/niwashi-mcp) - Schema-driven MCP server for Cisco ACI that lets an agent search the APIC object model, inspect a class schema, and run filtered queries without hardcoded class knowledge. Install with `uvx niwashi-mcp`. Read-only, source-available under a non-commercial licence.
 - [ACI MCP Server](https://github.com/automateyournetwork/ACI_MCP) - MCP server for the Cisco ACI APIC that builds read and write tools from a configurable endpoint map, handling token-based authentication and APIC payload wrapping.
 - [Catalyst Center MCP](https://github.com/richbibby/catalyst-center-mcp) - MCP server for Cisco Catalyst Center (formerly DNA Center) exposing device inventory, client, and site data for management and monitoring.
 - [Cisco SD-WAN MCP](https://github.com/siddhartha2303/cisco-sdwan-mcp) - Read-only MCP server that queries Cisco vManage for SD-WAN fabric devices, policies, and operational state.
