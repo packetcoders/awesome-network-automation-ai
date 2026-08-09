@@ -52,6 +52,7 @@ Maintained by [Packet Coders](https://www.packetcoders.io).
 
 *Programming libraries for building AI-driven network automation.*
 
+- [anydoc](https://github.com/firecrawl/anydoc) - Rust library and CLI that converts Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF files into GitHub-Flavored Markdown for LLM and agent consumption, with Node.js, Python, and WebAssembly bindings and an installable Agent Skill.
 - [GCF (Graph Compact Format)](https://github.com/blackwell-systems/gcf) - AI-native, lossless wire format for passing structured data to LLMs and agents, with a grammar reverse-engineered from tokenization and attention-level analysis and zero-dependency SDKs in six languages.
 
 ## Platforms & Products
