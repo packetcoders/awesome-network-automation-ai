@@ -54,6 +54,7 @@ Maintained by [Packet Coders](https://www.packetcoders.io).
 
 - [anydoc](https://github.com/firecrawl/anydoc) - Rust library and CLI that converts Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF files into GitHub-Flavored Markdown for LLM and agent consumption, with Node.js, Python, and WebAssembly bindings and an installable Agent Skill.
 - [GCF (Graph Compact Format)](https://github.com/blackwell-systems/gcf) - AI-native, lossless wire format for passing structured data to LLMs and agents, with a grammar reverse-engineered from tokenization and attention-level analysis and zero-dependency SDKs in six languages.
+- [neterse](https://github.com/pcDamasceno/neterse) - Python library and CLI that rewrites verbose network CLI output into minimum-token renderings for LLM agents, dispatching on netmiko, scrapli, raw text or parsed rows. Pitting GCF, TOON, and its own encoders against each other to pick the smallest faithful candidate, with an MCP proxy that compacts upstream tool results.
 
 ## Platforms & Products
 
