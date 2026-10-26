@@ -60,6 +60,7 @@ Maintained by [Packet Coders](https://www.packetcoders.io).
 
 *Commercial and hosted platforms with AI network automation capabilities.*
 
+- [Jev](https://typesafe.ai) - Hosted decision model from TypeSafe AI that returns typed classify, score, and yes/no judgments with calibrated probabilities instead of free text, suited to incident triage, runbook selection, and gating agent actions (proprietary).
 - [NetPilot](https://netpilot.io) - Agent that builds lab topologies from plain-English descriptions, generating vendor-specific configs for Cisco, Juniper, Arista, Nokia, Palo Alto, and Fortinet and deploying them to cloud-hosted devices.
 - [TopoAI](https://www.topoai.cc/) - Generates editable network topology diagram drafts from natural-language descriptions, sketches, and screenshots.
 
