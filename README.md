@@ -87,6 +87,7 @@ Maintained by [Packet Coders](https://www.packetcoders.io).
 - [Nautobot MCP](https://github.com/kvncampos/nautobot_mcp) - MCP server for Nautobot with STDIO and HTTP deployments, including embedding search and RAG over network source-of-truth data.
 - [NetBox MCP](https://github.com/automateyournetwork/NetBox_MCP) - Full-CRUD MCP server for NetBox covering 119 object types across all ten API apps through eight generic tools, including next-available IP, prefix, VLAN, and ASN allocation.
 - [netbox-mcp-server](https://github.com/netboxlabs/netbox-mcp-server) - Official NetBox Labs MCP server providing read-only access to NetBox DCIM and IPAM data.
+- [Netdryrun](https://github.com/netdryrun/Netdryrun) - MCP server that dry-runs a BGP or routing change in a real containerlab lab and returns a pass, fail or inconclusive verdict with evidence, so an agent can test a change before applying it. Also a CLI and GitHub Action.
 - [Netmiko MCP](https://github.com/ktbyers/netmiko_mcp) - MCP server that gives AI agents controlled SSH access to network devices via Netmiko, with command whitelisting for safety.
 - [pyATS MCP](https://github.com/automateyournetwork/pyATS_MCP) - MCP server wrapping Cisco pyATS and Genie so agents can run show commands, parse output into structured data, and apply configuration over STDIO JSON-RPC.
 - [tailscale-mcp](https://github.com/YawLabs/tailscale-mcp) - MCP server for managing Tailscale tailnets from AI assistants, covering devices, ACLs, DNS, auth keys, users, webhooks, and audit logs.
